@@ -5,11 +5,24 @@
 =                                                                                                  =
 ====================================================================================================
 
-- In “Password,” the Starship cost is reduced to half, plus an additional 5 drops per duel.
+====================================================================================================
+=              				CORE IDEA                            		           =
+====================================================================================================
 
-The core idea consists of a minimalist enhancement of the game, correcting specific issues from the original version without altering its core identity.
 
-All 722 cards will be available in the game, either through the improved fusion system from Pocket Station or through a FREE DUEL 2 mode featuring more unlockable characters, where cards that were originally obtainable via IR can now be acquired by dueling 39 new characters. The game's standard droplist will remain largely unchanged, with only very minor adjustments. The fusion system will be rebalanced by removing certain specific cards, with very few exceptions, in order to improve overall balance and internal consistency. Furthermore, three specific cards will be rebalanced:
+The main idea behind this project is to improve the overall experience and bring it closer to what I believe the game could have originally been. Forbidden Memories has a very interesting fusion system, but it is also quite unbalanced, with much of the game's progression eventually converging toward Twin-Headed Thunder Dragon, while only a few strategies remain truly viable until the end of the game.
+
+This project is therefore designed as a soft rebalance mod, without adding any new cards and while preserving the identity of the original game as much as possible. The main goal is to expand and rebalance the existing fusion system so that different card types and archetypes have viable progression paths throughout the entire game.
+
+The game's standard drop lists remain largely unchanged, with only minor adjustments. The fusion system has been rebalanced primarily by removing certain specific fusion combinations, with very few exceptions, in order to improve overall balance and internal consistency.
+
+In short, the goal is to preserve the essence of Forbidden Memories while making its progression more varied and balanced, allowing players to reach the end of the game using a much wider variety of strategies, card types, and deck archetypes.
+
+====================================================================================================
+=              				MAIN CHANGES                            		   =
+====================================================================================================
+
+
 
 The following cards will no longer be obtainable as FREE DUEL drops before completing the main campaign through the normal progression:
 
@@ -21,6 +34,10 @@ The following cards will no longer be obtainable as FREE DUEL drops before compl
 
 System Changes
 
+- Drops no longer depend on POW/TEC or Rank
+
+- In “Password,” the Starship cost is reduced, plus an additional 10 drops per duel.
+
 - Decks will be allowed to include up to three copies of each Exodia piece.
 
 - Direct damage Spell Cards have their value doubled.
@@ -29,13 +46,13 @@ System Changes
 
 - It is now possible to purchase cards with passwords an unlimited number of times instead of only once.
 
-- Any card password van by obtained by card number.
+- Any card password can by obtained by card number.
 
 - Wasteland and Sogen now also include the Machine and Beast types, respectively, in their 500 points bonus.
 
 - Power of Kaishin, Follow Wind, Violet Crystal and Cyber Shield will now grant a 1000 points bonus.
 
-- Machine Conversion Factory now grant a 750 points bonus.
+- Machine Conversion Factory and Metalmorph now grant a 750 points bonus.
 
 - Megamorph will now only increase 3000 or less original ATK cards.
 
@@ -133,6 +150,7 @@ Expected at least 3 drops = <N> ± xσ. Values depending of rarity prob3 = P(≥
 +----------------------+------------------+------------------+----------------+----------------+
 
 
+Example: A rare card is dropped at least three times, on average, in 68.27% of cases after 29 victories and in 99.73% of cases after 51 victories. This is not due to an exception in the code; it is simply the game's normal statistics.
 
 
 --------		 	 ---------
@@ -173,8 +191,6 @@ The fusion to
 
  - Cocoon of Evolution
 
- - Flame Cerebrus
-
  - Dark Elf
 
  - Nekogal #2 
@@ -183,6 +199,7 @@ The fusion to
 
  - Mystical Sand
 
+ - Queen of Autumn Leaves
 
 was changed (original fusion is removed).
 
@@ -806,7 +823,7 @@ Yami Bakura           | Part 2: Fiend, Zombie, [MASK]
 Pegasus               | Part 2: Spellcaster, Reptile, Spell
 Isis                  | Part 2: Aqua, Fish, Thunder, Dragon, [CRUSTACEAN]
 Seto Kaiba            | Part 2: Dragon, Sea Serpent
-Heishin               | Part 3: Rare Part 1-2
+Heishin               | Part 3: Spell
 Mage Soldier          | Part 3: Rare, Beast, Beast-Warrior
 Jono 2nd              | Part 3: Fiend, Dragon (Fiend), Pyro, Reptile, Dragon (Fiend)
 Teana 2nd             | Part 3: [FEMALE],Spellcaster
@@ -887,7 +904,6 @@ Labyrinth Tank, Suijin, Kasejin, Sanga of the Thunder and Gate Guardian:
 
 - Removed:	All
 
-
 Aqua Dragon
 
 - Add:		Mystical Moon
@@ -937,8 +953,6 @@ Mask of Shine & Dark
 
 - Add:		Book of Secret Arts
 - Removed:	None
-
-
 
 --------		 	         ---------
 ########         Useful Schemes		 #########
